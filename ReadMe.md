@@ -6,6 +6,7 @@ This project demonstrates how to train a deep learning model for X-ray image cla
 ## Project Overview
 
 - **Data:** Chest X-ray images divided into three categories: **train**, **validation**, and **test**.
+  https://www.kaggle.com/datasets/paultimothymooney/chest-xray-pneumonia
 - **Model:** Convolutional Neural Network (CNN) implemented using Keras.
 - **Libraries Used:** Keras, TensorFlow, Python, NumPy, Matplotlib.
 

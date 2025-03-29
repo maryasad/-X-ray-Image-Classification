@@ -5,7 +5,6 @@ Databricks provides a **scalable and collaborative environment** for handling la
 ✅ **Step 1: Data Acquisition**
 - Obtain a dataset of labeled medical images (e.g., NIH Chest X-ray dataset, Kaggle’s RSNA Pneumonia dataset, or hospital-provided anonymized data).
 - Store the raw images in **Azure Data Lake, AWS S3, or Google Cloud Storage** (Databricks integrates with all of these).
-  - I used this data: https://www.kaggle.com/datasets/paultimothymooney/chest-xray-pneumonia
      
 ✅ **Step 2: Data Preprocessing**
 - Convert images to a standard format (e.g., resizing to 224x224 pixels for CNNs).

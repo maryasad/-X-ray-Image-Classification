@@ -40,7 +40,7 @@ data/
 
 ### 1. **Verify Dataset**
 
-First, you need to verify that the dataset is structured correctly. You can use the following script to check the number of images in each category:
+First, we need to verify that the dataset is structured correctly. we can use the following script to check the number of images in each category:
 
 ```python
 import os
@@ -138,7 +138,7 @@ history = model.fit(
 
 ### 5. **Evaluate the Model**
 
-After training the model, you can evaluate its performance on the test data:
+After training the model, we can evaluate its performance on the test data:
 
 ```python
 test_datagen = ImageDataGenerator(rescale=1./255)
@@ -155,7 +155,7 @@ print(f"Test accuracy: {test_acc}")
 
 ### 6. **Model Saving**
 
-You can save the trained model for later use:
+we can save the trained model for later use:
 
 ```python
 model.save('xray_model.h5')
@@ -202,7 +202,7 @@ streamlit run src/WebApp.py
 
 ### 9. **Conclusion**
 
-This setup provides an easy way to build and deploy an image classification model using Keras and TensorFlow for medical image analysis. You can extend this application further by integrating more complex models, improving the UI, or deploying it on a web server.
+This setup provides an easy way to build and deploy an image classification model using Keras and TensorFlow for medical image analysis. we can extend this application further by integrating more complex models, improving the UI, or deploying it on a web server.
 
 ---
 
